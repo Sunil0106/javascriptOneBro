@@ -1,0 +1,24 @@
+#myH1 {
+  font-size: 5rem;
+}
+.my-btns {
+  font-size: 4rem;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+.enabled {
+  background: hsla(240, 80%, 50%, 0.534);
+  color: white;
+}
+.hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.301);
+  font-weight: bold;
+}
+
+.disabled {
+  background: hsl(0, 0, 70);
+  color: tomato;
+  cursor: not-allowed;
+}

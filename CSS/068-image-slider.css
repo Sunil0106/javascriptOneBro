@@ -1,0 +1,44 @@
+.slider {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+.slider img {
+  display: none;
+  height: 400px;
+}
+
+img.displaySlide {
+  display: block;
+  animation: fade 1.5s;
+}
+.slides {
+  position: relative;
+}
+
+.slider button {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  font-size: 2rem;
+  background: rgba(0, 0, 0, 0.384);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+}
+.prev {
+  left: 0;
+}
+.next {
+  right: 0;
+}
+@keyframes fade {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}

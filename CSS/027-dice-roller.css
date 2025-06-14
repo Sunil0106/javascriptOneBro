@@ -1,0 +1,44 @@
+#container {
+  font-family: monospace, cursive, sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+button {
+  font-size: 1.5rem;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(56, 202, 166, 0.678);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.15s ease-out;
+}
+button:hover {
+  background: rgba(56, 202, 166, 1);
+}
+button:active {
+  background: rgba(56, 202, 166, 0.1);
+}
+input {
+  font-size: 2rem;
+  width: 150px;
+  text-align: center;
+  font-weight: bold;
+  -moz-appearance: textfield;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="numner"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+#diceResult {
+  margin: 25px;
+}
+#diceImg {
+  height: 100px;
+}
+#diceImg img {
+  height: 100%;
+  margin: 5px;
+}
